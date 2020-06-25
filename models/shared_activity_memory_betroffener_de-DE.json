@@ -1,0 +1,189 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "shared activity memory bekannte",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Geburtstag",
+                    "slots": [],
+                    "samples": [
+                        "Wann habe ich Geburtstag",
+                        "Wann bin ich geboren",
+                        "Mein Alter",
+                        "Wie alt bin ich"
+                    ]
+                },
+                {
+                    "name": "Name",
+                    "slots": [],
+                    "samples": [
+                        "welchen namen habe ich",
+                        "wie ist mein name",
+                        "was ist mein name",
+                        "Wie heiße ich"
+                    ]
+                },
+                {
+                    "name": "Beruf",
+                    "slots": [],
+                    "samples": [
+                        "was habe  ich als beruf angegeben",
+                        "bin ich hartzler",
+                        "was ist mein beruf",
+                        "was arbeite ich"
+                    ]
+                },
+                {
+                    "name": "Aktuelles",
+                    "slots": [],
+                    "samples": [
+                        "bin ich im urlaub",
+                        "was mache ich in meiner freizeit",
+                        "hab ich hobbies",
+                        "was mache ich zur zeit"
+                    ]
+                },
+                {
+                    "name": "Wohnort",
+                    "slots": [],
+                    "samples": [
+                        "dahoam",
+                        "heimat",
+                        "navigiere mich heim",
+                        "wo hin muss ich wenn ich heim will",
+                        "wo wohnt mein haus",
+                        "wo bin ich zuhause",
+                        "wo wohne ich"
+                    ]
+                },
+                {
+                    "name": "Beziehungen",
+                    "slots": [],
+                    "samples": [
+                        "Meine Rolle",
+                        "Wie stehe ich zu Patient",
+                        "Was bin ich",
+                        "Was bin ich vom Patienten",
+                        "Welche Beziehung habe ich"
+                    ]
+                },
+                {
+                    "name": "BeziehungZuAnderen",
+                    "slots": [
+                        {
+                            "name": "Beziehung",
+                            "type": "LIST_OF_BEZIEHUNG"
+                        }
+                    ],
+                    "samples": [
+                        "habe ich eine {Beziehung}",
+                        "Habe ich einen {Beziehung}",
+                        "Habe ich {Beziehung}",
+                        "Wer ist mein {Beziehung}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_BEZIEHUNG",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Schwestern"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brüder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkelinnen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Töchter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Söhne"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anderes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Schwester"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bruder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ehemann"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ehefrau"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkelin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tochter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sohn"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

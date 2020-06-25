@@ -1,0 +1,138 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "Shared Memory",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ResumeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WieAltBinIch",
+                    "slots": [],
+                    "samples": [
+                        "Wann habe ich Geburtstag",
+                        "Wann bin ich geboren",
+                        "Mein Alter",
+                        "Wie alt bin ich"
+                    ]
+                },
+                {
+                    "name": "WerIstAngehoeriger",
+                    "slots": [
+                        {
+                            "name": "Beziehung",
+                            "type": "LIST_OF_BEZIEHUNG"
+                        }
+                    ],
+                    "samples": [
+                        "wer ist meine {Beziehung}",
+                        "habe ich eine {Beziehung}",
+                        "Habe ich einen {Beziehung}",
+                        "Wer ist mein {Beziehung}",
+                        "Habe ich {Beziehung}",
+                        "Wie heißen meine {Beziehung}",
+                        "Wie heißt mein {Beziehung}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_BEZIEHUNG",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Schwestern"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Brüder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkelinnen"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Töchter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Söhne"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Anderes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Schwester"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Bruder"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ehemann"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Ehefrau"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkelin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Enkel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tochter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Sohn"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
